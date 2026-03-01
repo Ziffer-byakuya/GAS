@@ -11,7 +11,7 @@ Please run `data_preprocess.py` to generate the augmented data in the dataset fo
 Please run `train_gas_mlp.py` to train GAS.
 1. It is recommended to keep the reward scale and cost scale as 1.
 2. In GAS, we use `nn.embedding` to process return-to-goes for stability.
-  1. Since `nn.embedding` can only process integers, the reward scale may need to be increased to make single-step rewards significant.
-  2. Or you can change `nn.embedding` to `nn.linear`.
+   1. Since `nn.embedding` can only process integers, the reward scale may need to be increased to make single-step rewards significant.
+   2. Or you can change `nn.embedding` to `nn.linear`.
    
 
